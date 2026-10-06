@@ -1,0 +1,7 @@
+*.o
+*.out
+*.test
+a.out
+reference/
+DS_Store
+*.test
