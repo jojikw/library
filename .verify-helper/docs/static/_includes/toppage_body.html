@@ -1,0 +1,23 @@
+<h2>Library</h2>
+
+{% assign doc_pages = site.pages | where_exp: "p", "p.documentation_of" %}
+{% assign lib_pages = doc_pages | where_exp: "p", "p.documentation_of contains '.hpp'" | sort: "documentation_of" %}
+{% assign groups = lib_pages | group_by_exp: "p", "p.documentation_of | split: '/' | first" %}
+{% for g in groups %}
+<h3>{{ g.name }}</h3>
+<ul>
+    {% for p in g.items %}
+    <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+        <small>({{ p.documentation_of }})</small>
+    </li>
+    {% endfor %}
+</ul>
+{% endfor %}
+
+<h2>Verification</h2>
+
+<ul>
+    {% for item in page.data.verificationPages %}
+    <li><a href="{{ item.path | absolute_url }}">{{ item.icon }} {{ item.title }}</a></li>
+    {% endfor %}
+</ul>
