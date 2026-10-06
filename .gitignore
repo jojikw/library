@@ -1,0 +1,12 @@
+.verify-helper/cache/
+.verify-helper/markdown/
+.verify-helper/timestamps.remote.json
+.verify-helper/timestamps.local.json
+*.o
+*.out
+*.test
+a.out
+/*.md
+!/README.md
+DS_Store
+*.test
