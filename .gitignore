@@ -2,7 +2,6 @@
 *.out
 *.test
 a.out
-/*.md
-!/README.md
+reference/
 DS_Store
 *.test
