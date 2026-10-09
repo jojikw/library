@@ -12,6 +12,10 @@ documentation_of: [
 
 Point update and prefix sum query on an array, plus range-add and 2D variants.
 
+## When to use
+
+Use this for point updates with prefix and range sums, k-th prefix search, and the 2D grid variant. Prefer the lazy segment tree when you need range adds with lazy propagation over arbitrary intervals.
+
 ## Time complexity
 
 | | Time complexity |
