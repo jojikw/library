@@ -45,6 +45,10 @@ title: 2D prefix sums
 
 Subgrid sums and subgrid additions on a grid.
 
+## When to use
+
+Use this for static grids with many subrectangle sum queries or offline rectangle additions. Prefer the 1D prefix sums for single-row problems and an update-capable structure when cells change between queries.
+
 ## Time complexity
 
 | | Time complexity |

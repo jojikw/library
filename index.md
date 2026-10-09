@@ -25,6 +25,9 @@ data:
   util: null
   verificationPages:
   - icon: ':heavy_check_mark:'
+    path: verify/ds/dsu/dsu.test.cpp
+    title: verify/ds/dsu/dsu.test.cpp
+  - icon: ':heavy_check_mark:'
     path: verify/ds/range_query/fenwick_tree.test.cpp
     title: verify/ds/range_query/fenwick_tree.test.cpp
 layout: toppage
