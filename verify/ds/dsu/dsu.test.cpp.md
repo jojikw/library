@@ -3,7 +3,7 @@ data:
   _extendedDependsOn:
   - icon: ':heavy_check_mark:'
     path: ds/dsu/dsu.hpp
-    title: ds/dsu/dsu.hpp
+    title: Disjoint set union
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _isVerificationFailed: false

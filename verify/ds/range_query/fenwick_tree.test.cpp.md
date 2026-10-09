@@ -3,7 +3,7 @@ data:
   _extendedDependsOn:
   - icon: ':heavy_check_mark:'
     path: ds/range_query/fenwick_tree.hpp
-    title: ds/range_query/fenwick_tree.hpp
+    title: Fenwick tree (binary indexed tree)
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _isVerificationFailed: false
