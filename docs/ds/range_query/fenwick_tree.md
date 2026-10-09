@@ -1,11 +1,6 @@
 ---
-title: [
-  Fenwick tree (binary indexed tree),
-  2D Fenwick tree
-]
-documentation_of: [
-  //ds/range_query/fenwick_tree.hpp
-]
+title: Fenwick tree (binary indexed tree)
+documentation_of: //ds/range_query/fenwick_tree.hpp
 ---
 
 # Fenwick tree (binary indexed tree)
